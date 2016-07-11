@@ -1,0 +1,320 @@
+[INFO] [welcome:33446] ready, waiting for job
+[INFO] [welcome:33445] ready, waiting for job
+[INFO] [welcome:33446] get a job 1, action: /jobs/jobs.echo
+[INFO] [welcome:33446] job 1 done
+[INFO] [welcome:33446] get a job 2, action: /jobs/jobs.echo
+[INFO] [welcome:33446] job 2 done
+[INFO] [welcome:33445] get a job 3, action: /jobs/jobs.echo
+[INFO] [welcome:33445] job 3 done
+[INFO] [welcome:33445] get a job 4, action: /jobs/jobs.echo
+[INFO] [welcome:33445] job 4 done
+[WARN] [welcome:33445] reserve job failed, closed
+[WARN] [welcome:33446] reserve job failed, closed
+[INFO] [welcome:34528] ready, waiting for job
+[INFO] [welcome:34529] ready, waiting for job
+[INFO] [welcome:34528] get a job 19, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 19 done
+[INFO] [welcome:34528] get a job 20, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 20 done
+[INFO] [welcome:34529] get a job 21, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 21 done
+[INFO] [welcome:34529] get a job 22, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 22 done
+[INFO] [welcome:34528] get a job 23, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 23 done
+[INFO] [welcome:34528] get a job 24, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 24 done
+[INFO] [welcome:34529] get a job 25, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 25 done
+[INFO] [welcome:34529] get a job 26, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 26 done
+[INFO] [welcome:34528] get a job 27, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 27 done
+[INFO] [welcome:34528] get a job 28, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 28 done
+[INFO] [welcome:34529] get a job 29, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 29 done
+[INFO] [welcome:34529] get a job 30, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 30 done
+[INFO] [welcome:34528] get a job 31, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 31 done
+[INFO] [welcome:34528] get a job 32, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 32 done
+[INFO] [welcome:34529] get a job 33, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 33 done
+[INFO] [welcome:34529] get a job 34, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 34 done
+[INFO] [welcome:34528] get a job 35, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 35 done
+[INFO] [welcome:34528] get a job 36, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 36 done
+[INFO] [welcome:34529] get a job 37, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 37 done
+[INFO] [welcome:34529] get a job 38, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 38 done
+[INFO] [welcome:34528] get a job 39, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 39 done
+[INFO] [welcome:34528] get a job 40, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 40 done
+[INFO] [welcome:34529] get a job 41, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 41 done
+[INFO] [welcome:34529] get a job 42, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 42 done
+[INFO] [welcome:34528] get a job 43, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 43 done
+[INFO] [welcome:34528] get a job 44, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 44 done
+[INFO] [welcome:34529] get a job 45, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 45 done
+[INFO] [welcome:34529] get a job 46, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 46 done
+[INFO] [welcome:34528] get a job 47, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 47 done
+[INFO] [welcome:34528] get a job 48, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 48 done
+[INFO] [welcome:34529] get a job 49, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 49 done
+[INFO] [welcome:34529] get a job 50, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 50 done
+[INFO] [welcome:34528] get a job 51, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 51 done
+[INFO] [welcome:34528] get a job 52, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 52 done
+[INFO] [welcome:34529] get a job 53, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 53 done
+[INFO] [welcome:34529] get a job 54, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 54 done
+[INFO] [welcome:34528] get a job 55, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 55 done
+[INFO] [welcome:34528] get a job 56, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 56 done
+[INFO] [welcome:34529] get a job 57, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 57 done
+[INFO] [welcome:34529] get a job 58, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 58 done
+[INFO] [welcome:34528] get a job 59, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 59 done
+[INFO] [welcome:34528] get a job 60, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 60 done
+[INFO] [welcome:34529] get a job 61, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 61 done
+[INFO] [welcome:34529] get a job 62, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 62 done
+[INFO] [welcome:34528] get a job 63, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 63 done
+[INFO] [welcome:34528] get a job 64, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 64 done
+[INFO] [welcome:34529] get a job 65, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 65 done
+[INFO] [welcome:34529] get a job 66, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 66 done
+[INFO] [welcome:34528] get a job 67, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 67 done
+[INFO] [welcome:34528] get a job 68, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 68 done
+[INFO] [welcome:34529] get a job 69, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 69 done
+[INFO] [welcome:34529] get a job 70, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 70 done
+[INFO] [welcome:34528] get a job 71, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 71 done
+[INFO] [welcome:34528] get a job 72, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 72 done
+[INFO] [welcome:34529] get a job 73, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 73 done
+[INFO] [welcome:34529] get a job 74, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 74 done
+[INFO] [welcome:34528] get a job 75, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 75 done
+[INFO] [welcome:34528] get a job 76, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 76 done
+[INFO] [welcome:34529] get a job 77, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 77 done
+[INFO] [welcome:34529] get a job 78, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 78 done
+[INFO] [welcome:34528] get a job 79, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 79 done
+[INFO] [welcome:34528] get a job 80, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 80 done
+[INFO] [welcome:34529] get a job 81, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 81 done
+[INFO] [welcome:34529] get a job 82, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 82 done
+[INFO] [welcome:34528] get a job 83, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 83 done
+[INFO] [welcome:34528] get a job 84, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 84 done
+[INFO] [welcome:34529] get a job 85, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 85 done
+[INFO] [welcome:34529] get a job 86, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 86 done
+[INFO] [welcome:34528] get a job 87, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 87 done
+[INFO] [welcome:34528] get a job 88, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 88 done
+[INFO] [welcome:34529] get a job 89, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 89 done
+[INFO] [welcome:34529] get a job 90, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 90 done
+[INFO] [welcome:34528] get a job 91, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 91 done
+[INFO] [welcome:34528] get a job 92, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 92 done
+[INFO] [welcome:34529] get a job 93, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 93 done
+[INFO] [welcome:34529] get a job 94, action: /jobs/jobs.echo
+[INFO] [welcome:34529] job 94 done
+[INFO] [welcome:34528] get a job 95, action: /jobs/jobs.echo
+[INFO] [welcome:34528] job 95 done
+[WARN] [welcome:34528] reserve job failed, closed
+[WARN] [welcome:34529] reserve job failed, closed
+[INFO] [welcome:49827] ready, waiting for job
+[INFO] [welcome:49826] ready, waiting for job
+[WARN] [welcome:49826] reserve job failed, closed
+[WARN] [welcome:49827] reserve job failed, closed
+[INFO] [welcome:50041] ready, waiting for job
+[INFO] [welcome:50042] ready, waiting for job
+[WARN] [welcome:50042] reserve job failed, closed
+[WARN] [welcome:50041] reserve job failed, closed
+[INFO] [welcome:50140] ready, waiting for job
+[INFO] [welcome:50141] ready, waiting for job
+[WARN] [welcome:50141] reserve job failed, closed
+[WARN] [welcome:50140] reserve job failed, closed
+[INFO] [welcome:50214] ready, waiting for job
+[INFO] [welcome:50215] ready, waiting for job
+[WARN] [welcome:50214] reserve job failed, closed
+[WARN] [welcome:50215] reserve job failed, closed
+[INFO] [welcome:57131] ready, waiting for job
+[INFO] [welcome:57132] ready, waiting for job
+[WARN] [welcome:57132] reserve job failed, closed
+[WARN] [welcome:57131] reserve job failed, closed
+[INFO] [welcome:57254] ready, waiting for job
+[INFO] [welcome:57253] ready, waiting for job
+[WARN] [welcome:57254] reserve job failed, closed
+[WARN] [welcome:57253] reserve job failed, closed
+[INFO] [welcome:57318] ready, waiting for job
+[INFO] [welcome:57317] ready, waiting for job
+[WARN] [welcome:57318] reserve job failed, closed
+[WARN] [welcome:57317] reserve job failed, closed
+[INFO] [welcome:57359] ready, waiting for job
+[INFO] [welcome:57360] ready, waiting for job
+[WARN] [welcome:57359] reserve job failed, closed
+[WARN] [welcome:57360] reserve job failed, closed
+[INFO] [welcome:57400] ready, waiting for job
+[INFO] [welcome:57401] ready, waiting for job
+[WARN] [welcome:57401] reserve job failed, closed
+[WARN] [welcome:57400] reserve job failed, closed
+[INFO] [welcome:57457] ready, waiting for job
+[INFO] [welcome:57458] ready, waiting for job
+[WARN] [welcome:57457] reserve job failed, closed
+[WARN] [welcome:57458] reserve job failed, closed
+[INFO] [welcome:57499] ready, waiting for job
+[INFO] [welcome:57500] ready, waiting for job
+[WARN] [welcome:57500] reserve job failed, closed
+[WARN] [welcome:57499] reserve job failed, closed
+[INFO] [welcome:57541] ready, waiting for job
+[INFO] [welcome:57542] ready, waiting for job
+[WARN] [welcome:57541] reserve job failed, closed
+[WARN] [welcome:57542] reserve job failed, closed
+[INFO] [welcome:57623] ready, waiting for job
+[INFO] [welcome:57622] ready, waiting for job
+[WARN] [welcome:57623] reserve job failed, closed
+[WARN] [welcome:57622] reserve job failed, closed
+[INFO] [welcome:57701] ready, waiting for job
+[INFO] [welcome:57702] ready, waiting for job
+[WARN] [welcome:57702] reserve job failed, closed
+[WARN] [welcome:57701] reserve job failed, closed
+[INFO] [welcome:57822] ready, waiting for job
+[INFO] [welcome:57823] ready, waiting for job
+[WARN] [welcome:57823] reserve job failed, closed
+[WARN] [welcome:57822] reserve job failed, closed
+[INFO] [welcome:57862] ready, waiting for job
+[INFO] [welcome:57863] ready, waiting for job
+[INFO] [welcome:57862] get a job 1, action: /jobs/jobs.echo
+[INFO] [welcome:57862] job 1 done
+[WARN] [welcome:57862] reserve job failed, closed
+[WARN] [welcome:57863] reserve job failed, closed
+[INFO] [welcome:62744] ready, waiting for job
+[INFO] [welcome:62745] ready, waiting for job
+[WARN] [welcome:62745] reserve job failed, closed
+[WARN] [welcome:62744] reserve job failed, closed
+[INFO] [welcome:62798] ready, waiting for job
+[INFO] [welcome:62797] ready, waiting for job
+[WARN] [welcome:62798] reserve job failed, closed
+[WARN] [welcome:62797] reserve job failed, closed
+[INFO] [welcome:62860] ready, waiting for job
+[INFO] [welcome:62861] ready, waiting for job
+[WARN] [welcome:62861] reserve job failed, closed
+[WARN] [welcome:62860] reserve job failed, closed
+[INFO] [welcome:62986] ready, waiting for job
+[INFO] [welcome:62987] ready, waiting for job
+[WARN] [welcome:62986] reserve job failed, closed
+[WARN] [welcome:62987] reserve job failed, closed
+[INFO] [welcome:73463] ready, waiting for job
+[INFO] [welcome:73464] ready, waiting for job
+[WARN] [welcome:73464] reserve job failed, closed
+[WARN] [welcome:73463] reserve job failed, closed
+[INFO] [welcome:73595] ready, waiting for job
+[INFO] [welcome:73596] ready, waiting for job
+[WARN] [welcome:73596] reserve job failed, closed
+[WARN] [welcome:73595] reserve job failed, closed
+[INFO] [welcome:73646] ready, waiting for job
+[INFO] [welcome:73645] ready, waiting for job
+[WARN] [welcome:73646] reserve job failed, closed
+[WARN] [welcome:73645] reserve job failed, closed
+[INFO] [welcome:73844] ready, waiting for job
+[INFO] [welcome:73843] ready, waiting for job
+[WARN] [welcome:73844] reserve job failed, closed
+[WARN] [welcome:73843] reserve job failed, closed
+[INFO] [welcome:73928] ready, waiting for job
+[INFO] [welcome:73927] ready, waiting for job
+[WARN] [welcome:73928] reserve job failed, closed
+[WARN] [welcome:73927] reserve job failed, closed
+[INFO] [welcome:73971] ready, waiting for job
+[INFO] [welcome:73972] ready, waiting for job
+[WARN] [welcome:73972] reserve job failed, closed
+[WARN] [welcome:73971] reserve job failed, closed
+[INFO] [welcome:74012] ready, waiting for job
+[INFO] [welcome:74013] ready, waiting for job
+[WARN] [welcome:74013] reserve job failed, closed
+[WARN] [welcome:74012] reserve job failed, closed
+[INFO] [welcome:74069] ready, waiting for job
+[INFO] [welcome:74070] ready, waiting for job
+[WARN] [welcome:74070] reserve job failed, closed
+[WARN] [welcome:74069] reserve job failed, closed
+[INFO] [welcome:74173] ready, waiting for job
+[INFO] [welcome:74172] ready, waiting for job
+[WARN] [welcome:74172] reserve job failed, closed
+[WARN] [welcome:74173] reserve job failed, closed
+[INFO] [welcome:74213] ready, waiting for job
+[INFO] [welcome:74212] ready, waiting for job
+[WARN] [welcome:74212] reserve job failed, closed
+[WARN] [welcome:74213] reserve job failed, closed
+[INFO] [welcome:74256] ready, waiting for job
+[INFO] [welcome:74255] ready, waiting for job
+[WARN] [welcome:74255] reserve job failed, closed
+[WARN] [welcome:74256] reserve job failed, closed
+[INFO] [welcome:74364] ready, waiting for job
+[INFO] [welcome:74365] ready, waiting for job
+[WARN] [welcome:74365] reserve job failed, closed
+[WARN] [welcome:74364] reserve job failed, closed
+[INFO] [welcome:74406] ready, waiting for job
+[INFO] [welcome:74407] ready, waiting for job
+[WARN] [welcome:74407] reserve job failed, closed
+[WARN] [welcome:74406] reserve job failed, closed
+[INFO] [welcome:74475] ready, waiting for job
+[INFO] [welcome:74476] ready, waiting for job
+[WARN] [welcome:74476] reserve job failed, closed
+[WARN] [welcome:74475] reserve job failed, closed
+[INFO] [welcome:74515] ready, waiting for job
+[INFO] [welcome:74516] ready, waiting for job
+[WARN] [welcome:74516] reserve job failed, closed
+[WARN] [welcome:74515] reserve job failed, closed
+[INFO] [welcome:74556] ready, waiting for job
+[INFO] [welcome:74557] ready, waiting for job
+[WARN] [welcome:74557] reserve job failed, closed
+[WARN] [welcome:74556] reserve job failed, closed
+[INFO] [welcome:74846] ready, waiting for job
+[INFO] [welcome:74847] ready, waiting for job
+[WARN] [welcome:74846] reserve job failed, closed
+[WARN] [welcome:74847] reserve job failed, closed

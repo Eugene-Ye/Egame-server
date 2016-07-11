@@ -1,0 +1,4 @@
+2016/06/25 22:31:38 [error] 33450#0: *24 send() failed (32: Broken pipe), client: 127.0.0.1, server: , request: "GET /welcome/ HTTP/1.1", host: "localhost:8088"
+2016/06/25 22:31:38 [error] 33450#0: *10 send() failed (32: Broken pipe), client: 127.0.0.1, server: , request: "GET /welcome/ HTTP/1.1", host: "localhost:8088"
+2016/06/25 22:34:20 [error] 34534#0: *3 open() "/Users/eugeneye/Documents/gbc-core/gbc-core/apps/welcome/public_html/hello" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /hello?action=hello.say HTTP/1.1", host: "localhost:8088"
+2016/07/04 16:18:50 [error] 57870#0: *32 open() "/Users/eugeneye/Documents/gbc-core/gbc-core/apps/welcome/public_html/welcome" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "POST /welcome?action=user.signin HTTP/1.1", host: "localhost:8088", referrer: "http://localhost:7456/"

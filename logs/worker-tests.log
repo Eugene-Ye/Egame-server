@@ -1,0 +1,70 @@
+[INFO] [tests:33448] ready, waiting for job
+[INFO] [tests:33448] get a job 13, action: jobs.trigging
+[INFO] [tests:33448] job 13 done
+[INFO] [tests:33448] get a job 14, action: jobs.trigging
+[INFO] [tests:33448] job 14 done
+[INFO] [tests:33448] get a job 15, action: jobs.trigging
+[INFO] [tests:33448] job 15 done
+[INFO] [tests:33448] get a job 16, action: jobs.trigging
+[INFO] [tests:33448] job 16 done
+[INFO] [tests:34532] ready, waiting for job
+[INFO] [tests:49830] ready, waiting for job
+[WARN] [tests:49830] reserve job failed, closed
+[INFO] [tests:50045] ready, waiting for job
+[WARN] [tests:50045] reserve job failed, closed
+[INFO] [tests:50144] ready, waiting for job
+[WARN] [tests:50144] reserve job failed, closed
+[INFO] [tests:50218] ready, waiting for job
+[INFO] [tests:57135] ready, waiting for job
+[WARN] [tests:57135] reserve job failed, closed
+[INFO] [tests:57257] ready, waiting for job
+[WARN] [tests:57257] reserve job failed, closed
+[INFO] [tests:57321] ready, waiting for job
+[WARN] [tests:57321] reserve job failed, closed
+[INFO] [tests:57363] ready, waiting for job
+[INFO] [tests:57404] ready, waiting for job
+[WARN] [tests:57404] reserve job failed, closed
+[INFO] [tests:57461] ready, waiting for job
+[INFO] [tests:57503] ready, waiting for job
+[WARN] [tests:57503] reserve job failed, closed
+[INFO] [tests:57545] ready, waiting for job
+[INFO] [tests:57626] ready, waiting for job
+[WARN] [tests:57626] reserve job failed, closed
+[INFO] [tests:57705] ready, waiting for job
+[INFO] [tests:57826] ready, waiting for job
+[WARN] [tests:57826] reserve job failed, closed
+[INFO] [tests:57866] ready, waiting for job
+[INFO] [tests:62748] ready, waiting for job
+[WARN] [tests:62748] reserve job failed, closed
+[INFO] [tests:62801] ready, waiting for job
+[WARN] [tests:62801] reserve job failed, closed
+[INFO] [tests:62864] ready, waiting for job
+[WARN] [tests:62864] reserve job failed, closed
+[INFO] [tests:62990] ready, waiting for job
+[INFO] [tests:73467] ready, waiting for job
+[WARN] [tests:73467] reserve job failed, closed
+[INFO] [tests:73599] ready, waiting for job
+[WARN] [tests:73599] reserve job failed, closed
+[INFO] [tests:73649] ready, waiting for job
+[INFO] [tests:73847] ready, waiting for job
+[WARN] [tests:73847] reserve job failed, closed
+[INFO] [tests:73931] ready, waiting for job
+[WARN] [tests:73931] reserve job failed, closed
+[INFO] [tests:73975] ready, waiting for job
+[WARN] [tests:73975] reserve job failed, closed
+[INFO] [tests:74016] ready, waiting for job
+[WARN] [tests:74016] reserve job failed, closed
+[INFO] [tests:74073] ready, waiting for job
+[INFO] [tests:74176] ready, waiting for job
+[WARN] [tests:74176] reserve job failed, closed
+[INFO] [tests:74216] ready, waiting for job
+[INFO] [tests:74259] ready, waiting for job
+[INFO] [tests:74368] ready, waiting for job
+[WARN] [tests:74368] reserve job failed, closed
+[INFO] [tests:74410] ready, waiting for job
+[WARN] [tests:74410] reserve job failed, closed
+[INFO] [tests:74479] ready, waiting for job
+[INFO] [tests:74519] ready, waiting for job
+[WARN] [tests:74519] reserve job failed, closed
+[INFO] [tests:74560] ready, waiting for job
+[INFO] [tests:74850] ready, waiting for job

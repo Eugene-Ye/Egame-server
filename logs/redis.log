@@ -1,0 +1,1487 @@
+33447:M 24 Jun 17:51:16.382 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 33447
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+33447:M 24 Jun 17:51:16.394 # Server started, Redis version 3.0.7
+33447:M 24 Jun 17:51:16.395 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+33447:M 25 Jun 14:51:53.496 * 1 changes in 900 seconds. Saving...
+33447:M 25 Jun 14:51:53.499 * Background saving started by pid 33701
+33701:C 25 Jun 14:51:53.502 * DB saved on disk
+33447:M 25 Jun 14:51:53.603 * Background saving terminated with success
+33447:M 25 Jun 14:56:54.054 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 14:56:54.056 * Background saving started by pid 33712
+33712:C 25 Jun 14:56:54.059 * DB saved on disk
+33447:M 25 Jun 14:56:54.161 * Background saving terminated with success
+33447:M 25 Jun 15:01:55.031 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:01:55.033 * Background saving started by pid 33716
+33716:C 25 Jun 15:01:55.036 * DB saved on disk
+33447:M 25 Jun 15:01:55.137 * Background saving terminated with success
+33447:M 25 Jun 15:06:56.081 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:06:56.085 * Background saving started by pid 33722
+33722:C 25 Jun 15:06:56.087 * DB saved on disk
+33447:M 25 Jun 15:06:56.187 * Background saving terminated with success
+33447:M 25 Jun 15:11:57.103 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:11:57.104 * Background saving started by pid 33726
+33726:C 25 Jun 15:11:57.107 * DB saved on disk
+33447:M 25 Jun 15:11:57.205 * Background saving terminated with success
+33447:M 25 Jun 15:16:58.090 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:16:58.091 * Background saving started by pid 33731
+33731:C 25 Jun 15:16:58.094 * DB saved on disk
+33447:M 25 Jun 15:16:58.195 * Background saving terminated with success
+33447:M 25 Jun 15:21:59.059 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:21:59.060 * Background saving started by pid 33792
+33792:C 25 Jun 15:21:59.064 * DB saved on disk
+33447:M 25 Jun 15:21:59.165 * Background saving terminated with success
+33447:M 25 Jun 15:27:00.061 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:27:00.063 * Background saving started by pid 33815
+33815:C 25 Jun 15:27:00.066 * DB saved on disk
+33447:M 25 Jun 15:27:00.167 * Background saving terminated with success
+33447:M 25 Jun 15:32:01.014 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:32:01.014 * Background saving started by pid 33821
+33821:C 25 Jun 15:32:01.015 * DB saved on disk
+33447:M 25 Jun 15:32:01.120 * Background saving terminated with success
+33447:M 25 Jun 15:37:02.054 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:37:02.056 * Background saving started by pid 33825
+33825:C 25 Jun 15:37:02.058 * DB saved on disk
+33447:M 25 Jun 15:37:02.161 * Background saving terminated with success
+33447:M 25 Jun 15:42:03.032 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:42:03.034 * Background saving started by pid 33831
+33831:C 25 Jun 15:42:03.038 * DB saved on disk
+33447:M 25 Jun 15:42:03.138 * Background saving terminated with success
+33447:M 25 Jun 15:47:04.043 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:47:04.044 * Background saving started by pid 33834
+33834:C 25 Jun 15:47:04.046 * DB saved on disk
+33447:M 25 Jun 15:47:04.148 * Background saving terminated with success
+33447:M 25 Jun 15:52:05.082 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:52:05.084 * Background saving started by pid 33840
+33840:C 25 Jun 15:52:05.085 * DB saved on disk
+33447:M 25 Jun 15:52:05.184 * Background saving terminated with success
+33447:M 25 Jun 15:57:06.080 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 15:57:06.081 * Background saving started by pid 33916
+33916:C 25 Jun 15:57:06.084 * DB saved on disk
+33447:M 25 Jun 15:57:06.186 * Background saving terminated with success
+33447:M 25 Jun 16:02:07.027 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:02:07.028 * Background saving started by pid 33922
+33922:C 25 Jun 16:02:07.031 * DB saved on disk
+33447:M 25 Jun 16:02:07.132 * Background saving terminated with success
+33447:M 25 Jun 16:07:08.047 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:07:08.048 * Background saving started by pid 33929
+33929:C 25 Jun 16:07:08.050 * DB saved on disk
+33447:M 25 Jun 16:07:08.152 * Background saving terminated with success
+33447:M 25 Jun 16:12:09.078 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:12:09.078 * Background saving started by pid 33934
+33934:C 25 Jun 16:12:09.080 * DB saved on disk
+33447:M 25 Jun 16:12:09.182 * Background saving terminated with success
+33447:M 25 Jun 16:17:10.021 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:17:10.021 * Background saving started by pid 33937
+33937:C 25 Jun 16:17:10.022 * DB saved on disk
+33447:M 25 Jun 16:17:10.123 * Background saving terminated with success
+33447:M 25 Jun 16:22:11.049 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:22:11.050 * Background saving started by pid 33941
+33941:C 25 Jun 16:22:11.051 * DB saved on disk
+33447:M 25 Jun 16:22:11.155 * Background saving terminated with success
+33447:M 25 Jun 16:27:12.022 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:27:12.023 * Background saving started by pid 33949
+33949:C 25 Jun 16:27:12.027 * DB saved on disk
+33447:M 25 Jun 16:27:12.128 * Background saving terminated with success
+33447:M 25 Jun 16:32:13.062 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:32:13.065 * Background saving started by pid 33999
+33999:C 25 Jun 16:32:13.072 * DB saved on disk
+33447:M 25 Jun 16:32:13.169 * Background saving terminated with success
+33447:M 25 Jun 16:37:14.085 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:37:14.086 * Background saving started by pid 34033
+34033:C 25 Jun 16:37:14.088 * DB saved on disk
+33447:M 25 Jun 16:37:14.193 * Background saving terminated with success
+33447:M 25 Jun 16:42:15.096 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:42:15.099 * Background saving started by pid 34039
+34039:C 25 Jun 16:42:15.100 * DB saved on disk
+33447:M 25 Jun 16:42:15.204 * Background saving terminated with success
+33447:M 25 Jun 16:47:16.012 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:47:16.014 * Background saving started by pid 34057
+34057:C 25 Jun 16:47:16.017 * DB saved on disk
+33447:M 25 Jun 16:47:16.116 * Background saving terminated with success
+33447:M 25 Jun 16:52:17.052 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:52:17.054 * Background saving started by pid 34065
+34065:C 25 Jun 16:52:17.055 * DB saved on disk
+33447:M 25 Jun 16:52:17.164 * Background saving terminated with success
+33447:M 25 Jun 16:57:18.079 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 16:57:18.081 * Background saving started by pid 34134
+34134:C 25 Jun 16:57:18.088 * DB saved on disk
+33447:M 25 Jun 16:57:18.182 * Background saving terminated with success
+33447:M 25 Jun 17:02:19.065 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 17:02:19.067 * Background saving started by pid 34170
+34170:C 25 Jun 17:02:19.070 * DB saved on disk
+33447:M 25 Jun 17:02:19.169 * Background saving terminated with success
+33447:M 25 Jun 17:07:20.017 * 10 changes in 300 seconds. Saving...
+33447:M 25 Jun 17:07:20.019 * Background saving started by pid 34218
+34218:C 25 Jun 17:07:20.021 * DB saved on disk
+33447:M 25 Jun 17:07:20.123 * Background saving terminated with success
+33447:M 25 Jun 17:23:19.014 * 1 changes in 900 seconds. Saving...
+33447:M 25 Jun 17:23:19.244 * Background saving started by pid 34237
+34237:C 25 Jun 17:23:19.309 * DB saved on disk
+33447:M 25 Jun 17:23:19.356 * Background saving terminated with success
+33447:signal-handler (1466865098) Received SIGTERM scheduling shutdown...
+33447:M 25 Jun 22:31:38.649 # User requested shutdown...
+33447:M 25 Jun 22:31:38.649 * Saving the final RDB snapshot before exiting.
+33447:M 25 Jun 22:31:38.654 * DB saved on disk
+33447:M 25 Jun 22:31:38.655 * Removing the unix socket file.
+33447:M 25 Jun 22:31:38.659 # Redis is now ready to exit, bye bye...
+34530:M 25 Jun 22:31:52.960 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 34530
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+34530:M 25 Jun 22:31:52.965 # Server started, Redis version 3.0.7
+34530:M 25 Jun 22:31:52.966 * DB loaded from disk: 0.002 seconds
+34530:M 25 Jun 22:31:52.966 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+34530:M 28 Jun 18:07:25.514 * 1 changes in 900 seconds. Saving...
+34530:M 28 Jun 18:07:25.518 * Background saving started by pid 42204
+42204:C 28 Jun 18:07:25.530 * DB saved on disk
+34530:M 28 Jun 18:07:25.621 * Background saving terminated with success
+34530:M 28 Jun 19:05:32.010 * 1 changes in 900 seconds. Saving...
+34530:M 28 Jun 19:05:32.171 * Background saving started by pid 42232
+42232:C 28 Jun 19:05:32.183 * DB saved on disk
+34530:M 28 Jun 19:05:32.278 * Background saving terminated with success
+34530:M 29 Jun 10:39:50.741 * 1 changes in 900 seconds. Saving...
+34530:M 29 Jun 10:39:50.746 * Background saving started by pid 43792
+43792:C 29 Jun 10:39:50.759 * DB saved on disk
+34530:M 29 Jun 10:39:50.850 * Background saving terminated with success
+34530:M 29 Jun 10:44:51.084 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 10:44:51.086 * Background saving started by pid 43836
+43836:C 29 Jun 10:44:51.094 * DB saved on disk
+34530:M 29 Jun 10:44:51.192 * Background saving terminated with success
+34530:M 29 Jun 10:54:51.025 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 10:54:51.025 * Background saving started by pid 43942
+43942:C 29 Jun 10:54:51.031 * DB saved on disk
+34530:M 29 Jun 10:54:51.133 * Background saving terminated with success
+34530:M 29 Jun 11:04:51.009 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 11:04:51.012 * Background saving started by pid 44108
+44108:C 29 Jun 11:04:51.020 * DB saved on disk
+34530:M 29 Jun 11:04:51.118 * Background saving terminated with success
+34530:M 29 Jun 11:14:51.045 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 11:14:51.046 * Background saving started by pid 44152
+44152:C 29 Jun 11:14:51.049 * DB saved on disk
+34530:M 29 Jun 11:14:51.151 * Background saving terminated with success
+34530:M 29 Jun 11:24:51.034 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 11:24:51.036 * Background saving started by pid 44213
+44213:C 29 Jun 11:24:51.043 * DB saved on disk
+34530:M 29 Jun 11:24:51.140 * Background saving terminated with success
+34530:M 29 Jun 11:34:50.994 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 11:34:50.996 * Background saving started by pid 44278
+44278:C 29 Jun 11:34:51.003 * DB saved on disk
+34530:M 29 Jun 11:34:51.102 * Background saving terminated with success
+34530:M 29 Jun 11:44:50.993 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 11:44:50.994 * Background saving started by pid 44286
+44286:C 29 Jun 11:44:50.998 * DB saved on disk
+34530:M 29 Jun 11:44:51.099 * Background saving terminated with success
+34530:M 29 Jun 11:54:51.043 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 11:54:51.045 * Background saving started by pid 44301
+44301:C 29 Jun 11:54:51.048 * DB saved on disk
+34530:M 29 Jun 11:54:51.149 * Background saving terminated with success
+34530:M 29 Jun 12:04:51.059 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 12:04:51.060 * Background saving started by pid 44312
+44312:C 29 Jun 12:04:51.064 * DB saved on disk
+34530:M 29 Jun 12:04:51.164 * Background saving terminated with success
+34530:M 29 Jun 12:14:51.088 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 12:14:51.090 * Background saving started by pid 44320
+44320:C 29 Jun 12:14:51.092 * DB saved on disk
+34530:M 29 Jun 12:14:51.192 * Background saving terminated with success
+34530:M 29 Jun 12:24:51.088 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 12:24:51.089 * Background saving started by pid 44328
+44328:C 29 Jun 12:24:51.092 * DB saved on disk
+34530:M 29 Jun 12:24:51.193 * Background saving terminated with success
+34530:M 29 Jun 12:34:51.117 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 12:34:51.118 * Background saving started by pid 44339
+44339:C 29 Jun 12:34:51.122 * DB saved on disk
+34530:M 29 Jun 12:34:51.221 * Background saving terminated with success
+34530:M 29 Jun 12:44:51.070 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 12:44:51.071 * Background saving started by pid 44345
+44345:C 29 Jun 12:44:51.073 * DB saved on disk
+34530:M 29 Jun 12:44:51.177 * Background saving terminated with success
+34530:M 29 Jun 12:54:51.153 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 12:54:51.155 * Background saving started by pid 44382
+44382:C 29 Jun 12:54:51.158 * DB saved on disk
+34530:M 29 Jun 12:54:51.259 * Background saving terminated with success
+34530:M 29 Jun 13:04:51.078 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 13:04:51.079 * Background saving started by pid 44395
+44395:C 29 Jun 13:04:51.084 * DB saved on disk
+34530:M 29 Jun 13:04:51.182 * Background saving terminated with success
+34530:M 29 Jun 13:14:51.102 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 13:14:51.108 * Background saving started by pid 44492
+44492:C 29 Jun 13:14:51.122 * DB saved on disk
+34530:M 29 Jun 13:14:51.213 * Background saving terminated with success
+34530:M 29 Jun 13:24:51.154 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 13:24:51.156 * Background saving started by pid 44557
+44557:C 29 Jun 13:24:51.159 * DB saved on disk
+34530:M 29 Jun 13:24:51.260 * Background saving terminated with success
+34530:M 29 Jun 13:34:51.163 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 13:34:51.164 * Background saving started by pid 44583
+44583:C 29 Jun 13:34:51.167 * DB saved on disk
+34530:M 29 Jun 13:34:51.270 * Background saving terminated with success
+34530:M 29 Jun 13:44:51.213 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 13:44:51.214 * Background saving started by pid 44680
+44680:C 29 Jun 13:44:51.227 * DB saved on disk
+34530:M 29 Jun 13:44:51.316 * Background saving terminated with success
+34530:M 29 Jun 13:54:51.174 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 13:54:51.182 * Background saving started by pid 44798
+44798:C 29 Jun 13:54:51.193 * DB saved on disk
+34530:M 29 Jun 13:54:51.286 * Background saving terminated with success
+34530:M 29 Jun 14:04:51.154 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 14:04:51.155 * Background saving started by pid 44886
+44886:C 29 Jun 14:04:51.160 * DB saved on disk
+34530:M 29 Jun 14:04:51.260 * Background saving terminated with success
+34530:M 29 Jun 14:14:51.160 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 14:14:51.161 * Background saving started by pid 44924
+44924:C 29 Jun 14:14:51.166 * DB saved on disk
+34530:M 29 Jun 14:14:51.266 * Background saving terminated with success
+34530:M 29 Jun 14:24:51.270 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 14:24:51.278 * Background saving started by pid 45009
+45009:C 29 Jun 14:24:51.284 * DB saved on disk
+34530:M 29 Jun 14:24:51.387 * Background saving terminated with success
+34530:M 29 Jun 14:34:51.206 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 14:34:51.209 * Background saving started by pid 45074
+45074:C 29 Jun 14:34:51.213 * DB saved on disk
+34530:M 29 Jun 14:34:51.314 * Background saving terminated with success
+34530:M 29 Jun 14:44:51.214 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 14:44:51.216 * Background saving started by pid 45242
+45242:C 29 Jun 14:44:51.221 * DB saved on disk
+34530:M 29 Jun 14:44:51.320 * Background saving terminated with success
+34530:M 29 Jun 14:54:51.207 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 14:54:51.220 * Background saving started by pid 45338
+45338:C 29 Jun 14:54:51.227 * DB saved on disk
+34530:M 29 Jun 14:54:51.326 * Background saving terminated with success
+34530:M 29 Jun 15:04:51.220 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 15:04:51.222 * Background saving started by pid 45792
+45792:C 29 Jun 15:04:51.228 * DB saved on disk
+34530:M 29 Jun 15:04:51.323 * Background saving terminated with success
+34530:M 29 Jun 15:14:51.283 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 15:14:51.287 * Background saving started by pid 45989
+45989:C 29 Jun 15:14:51.294 * DB saved on disk
+34530:M 29 Jun 15:14:51.387 * Background saving terminated with success
+34530:M 29 Jun 15:24:51.297 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 15:24:51.299 * Background saving started by pid 46055
+46055:C 29 Jun 15:24:51.307 * DB saved on disk
+34530:M 29 Jun 15:24:51.403 * Background saving terminated with success
+34530:M 29 Jun 15:34:51.298 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 15:34:51.301 * Background saving started by pid 46157
+46157:C 29 Jun 15:34:51.309 * DB saved on disk
+34530:M 29 Jun 15:34:51.406 * Background saving terminated with success
+34530:M 29 Jun 15:44:51.354 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 15:44:51.357 * Background saving started by pid 46260
+46260:C 29 Jun 15:44:51.360 * DB saved on disk
+34530:M 29 Jun 15:44:51.461 * Background saving terminated with success
+34530:M 29 Jun 15:54:51.325 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 15:54:51.329 * Background saving started by pid 46381
+46381:C 29 Jun 15:54:51.333 * DB saved on disk
+34530:M 29 Jun 15:54:51.434 * Background saving terminated with success
+34530:M 29 Jun 16:04:51.326 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:04:51.328 * Background saving started by pid 46477
+46477:C 29 Jun 16:04:51.336 * DB saved on disk
+34530:M 29 Jun 16:04:51.437 * Background saving terminated with success
+34530:M 29 Jun 16:09:52.053 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:09:52.056 * Background saving started by pid 46536
+46536:C 29 Jun 16:09:52.058 * DB saved on disk
+34530:M 29 Jun 16:09:52.158 * Background saving terminated with success
+34530:M 29 Jun 16:16:02.063 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:16:02.064 * Background saving started by pid 46598
+46598:C 29 Jun 16:16:02.071 * DB saved on disk
+34530:M 29 Jun 16:16:02.169 * Background saving terminated with success
+34530:M 29 Jun 16:22:51.373 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:22:51.375 * Background saving started by pid 46707
+46707:C 29 Jun 16:22:51.377 * DB saved on disk
+34530:M 29 Jun 16:22:51.479 * Background saving terminated with success
+34530:M 29 Jun 16:32:51.361 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:32:51.362 * Background saving started by pid 46802
+46802:C 29 Jun 16:32:51.367 * DB saved on disk
+34530:M 29 Jun 16:32:51.463 * Background saving terminated with success
+34530:M 29 Jun 16:37:52.103 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:37:52.104 * Background saving started by pid 46845
+46845:C 29 Jun 16:37:52.108 * DB saved on disk
+34530:M 29 Jun 16:37:52.209 * Background saving terminated with success
+34530:M 29 Jun 16:42:53.081 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:42:53.083 * Background saving started by pid 46895
+46895:C 29 Jun 16:42:53.085 * DB saved on disk
+34530:M 29 Jun 16:42:53.185 * Background saving terminated with success
+34530:M 29 Jun 16:47:54.008 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:47:54.008 * Background saving started by pid 46970
+46970:C 29 Jun 16:47:54.014 * DB saved on disk
+34530:M 29 Jun 16:47:54.111 * Background saving terminated with success
+34530:M 29 Jun 16:52:55.027 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:52:55.072 * Background saving started by pid 47030
+47030:C 29 Jun 16:52:55.142 * DB saved on disk
+34530:M 29 Jun 16:52:55.177 * Background saving terminated with success
+34530:M 29 Jun 16:57:56.061 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 16:57:56.063 * Background saving started by pid 47069
+47069:C 29 Jun 16:57:56.067 * DB saved on disk
+34530:M 29 Jun 16:57:56.169 * Background saving terminated with success
+34530:M 29 Jun 17:03:51.446 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 17:03:51.448 * Background saving started by pid 47135
+47135:C 29 Jun 17:03:51.457 * DB saved on disk
+34530:M 29 Jun 17:03:51.556 * Background saving terminated with success
+34530:M 29 Jun 17:13:51.526 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 17:13:51.528 * Background saving started by pid 47208
+47208:C 29 Jun 17:13:51.542 * DB saved on disk
+34530:M 29 Jun 17:13:51.639 * Background saving terminated with success
+34530:M 29 Jun 17:23:51.451 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 17:23:51.453 * Background saving started by pid 47253
+47253:C 29 Jun 17:23:51.457 * DB saved on disk
+34530:M 29 Jun 17:23:51.557 * Background saving terminated with success
+34530:M 29 Jun 17:33:51.487 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 17:33:51.494 * Background saving started by pid 47333
+47333:C 29 Jun 17:33:51.505 * DB saved on disk
+34530:M 29 Jun 17:33:51.597 * Background saving terminated with success
+34530:M 29 Jun 17:43:51.549 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 17:43:51.554 * Background saving started by pid 47441
+47441:C 29 Jun 17:43:51.560 * DB saved on disk
+34530:M 29 Jun 17:43:51.659 * Background saving terminated with success
+34530:M 29 Jun 17:53:51.555 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 17:53:51.557 * Background saving started by pid 47571
+47571:C 29 Jun 17:53:51.568 * DB saved on disk
+34530:M 29 Jun 17:53:51.663 * Background saving terminated with success
+34530:M 29 Jun 18:03:51.571 * 10 changes in 300 seconds. Saving...
+34530:M 29 Jun 18:03:51.573 * Background saving started by pid 47685
+47685:C 29 Jun 18:03:51.578 * DB saved on disk
+34530:M 29 Jun 18:03:51.678 * Background saving terminated with success
+34530:M 29 Jun 19:23:13.012 * 1 changes in 900 seconds. Saving...
+34530:M 29 Jun 19:23:13.193 * Background saving started by pid 47805
+47805:C 29 Jun 19:23:13.263 * DB saved on disk
+34530:M 29 Jun 19:23:13.302 * Background saving terminated with success
+34530:signal-handler (1467253963) Received SIGTERM scheduling shutdown...
+34530:M 30 Jun 10:32:43.678 # User requested shutdown...
+34530:M 30 Jun 10:32:43.678 * Saving the final RDB snapshot before exiting.
+34530:M 30 Jun 10:32:43.682 * DB saved on disk
+34530:M 30 Jun 10:32:43.683 * Removing the unix socket file.
+34530:M 30 Jun 10:32:43.683 # Redis is now ready to exit, bye bye...
+49828:M 30 Jun 10:32:48.854 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 49828
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+49828:M 30 Jun 10:32:48.860 # Server started, Redis version 3.0.7
+49828:M 30 Jun 10:32:48.861 * DB loaded from disk: 0.000 seconds
+49828:M 30 Jun 10:32:48.861 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+49828:signal-handler (1467254857) Received SIGTERM scheduling shutdown...
+49828:M 30 Jun 10:47:38.000 # User requested shutdown...
+49828:M 30 Jun 10:47:38.000 * Saving the final RDB snapshot before exiting.
+49828:M 30 Jun 10:47:38.001 * DB saved on disk
+49828:M 30 Jun 10:47:38.001 * Removing the unix socket file.
+49828:M 30 Jun 10:47:38.002 # Redis is now ready to exit, bye bye...
+50043:M 30 Jun 10:47:39.389 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 50043
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+50043:M 30 Jun 10:47:39.392 # Server started, Redis version 3.0.7
+50043:M 30 Jun 10:47:39.392 * DB loaded from disk: 0.000 seconds
+50043:M 30 Jun 10:47:39.392 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+50043:signal-handler (1467254953) Received SIGTERM scheduling shutdown...
+50043:M 30 Jun 10:49:13.250 # User requested shutdown...
+50043:M 30 Jun 10:49:13.251 * Saving the final RDB snapshot before exiting.
+50043:M 30 Jun 10:49:13.251 * DB saved on disk
+50043:M 30 Jun 10:49:13.252 * Removing the unix socket file.
+50043:M 30 Jun 10:49:13.252 # Redis is now ready to exit, bye bye...
+50142:M 30 Jun 10:49:24.733 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 50142
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+50142:M 30 Jun 10:49:24.735 # Server started, Redis version 3.0.7
+50142:M 30 Jun 10:49:24.735 * DB loaded from disk: 0.000 seconds
+50142:M 30 Jun 10:49:24.736 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+50142:signal-handler (1467255146) Received SIGTERM scheduling shutdown...
+50142:M 30 Jun 10:52:26.351 # User requested shutdown...
+50142:M 30 Jun 10:52:26.351 * Saving the final RDB snapshot before exiting.
+50142:M 30 Jun 10:52:26.353 * DB saved on disk
+50142:M 30 Jun 10:52:26.356 * Removing the unix socket file.
+50142:M 30 Jun 10:52:26.356 # Redis is now ready to exit, bye bye...
+50216:M 30 Jun 10:52:27.860 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 50216
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+50216:M 30 Jun 10:52:27.861 # Server started, Redis version 3.0.7
+50216:M 30 Jun 10:52:27.861 * DB loaded from disk: 0.000 seconds
+50216:M 30 Jun 10:52:27.862 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+50216:signal-handler (1467365671) Received SIGTERM scheduling shutdown...
+50216:M 01 Jul 17:34:31.770 # User requested shutdown...
+50216:M 01 Jul 17:34:31.773 * Saving the final RDB snapshot before exiting.
+50216:M 01 Jul 17:34:31.781 * DB saved on disk
+50216:M 01 Jul 17:34:31.781 * Removing the unix socket file.
+50216:M 01 Jul 17:34:31.781 # Redis is now ready to exit, bye bye...
+57133:M 01 Jul 17:34:33.800 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57133
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57133:M 01 Jul 17:34:33.805 # Server started, Redis version 3.0.7
+57133:M 01 Jul 17:34:33.806 * DB loaded from disk: 0.001 seconds
+57133:M 01 Jul 17:34:33.806 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57133:signal-handler (1467366064) Received SIGTERM scheduling shutdown...
+57133:M 01 Jul 17:41:04.623 # User requested shutdown...
+57133:M 01 Jul 17:41:04.623 * Saving the final RDB snapshot before exiting.
+57133:M 01 Jul 17:41:04.625 * DB saved on disk
+57133:M 01 Jul 17:41:04.626 * Removing the unix socket file.
+57133:M 01 Jul 17:41:04.626 # Redis is now ready to exit, bye bye...
+57255:M 01 Jul 17:41:07.037 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57255
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57255:M 01 Jul 17:41:07.039 # Server started, Redis version 3.0.7
+57255:M 01 Jul 17:41:07.039 * DB loaded from disk: 0.000 seconds
+57255:M 01 Jul 17:41:07.039 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57255:signal-handler (1467366174) Received SIGTERM scheduling shutdown...
+57255:M 01 Jul 17:42:55.075 # User requested shutdown...
+57255:M 01 Jul 17:42:55.075 * Saving the final RDB snapshot before exiting.
+57255:M 01 Jul 17:42:55.076 * DB saved on disk
+57255:M 01 Jul 17:42:55.077 * Removing the unix socket file.
+57255:M 01 Jul 17:42:55.077 # Redis is now ready to exit, bye bye...
+57319:M 01 Jul 17:42:56.921 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57319
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57319:M 01 Jul 17:42:56.928 # Server started, Redis version 3.0.7
+57319:M 01 Jul 17:42:56.928 * DB loaded from disk: 0.000 seconds
+57319:M 01 Jul 17:42:56.929 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57319:signal-handler (1467366272) Received SIGTERM scheduling shutdown...
+57319:M 01 Jul 17:44:32.081 # User requested shutdown...
+57319:M 01 Jul 17:44:32.081 * Saving the final RDB snapshot before exiting.
+57319:M 01 Jul 17:44:32.082 * DB saved on disk
+57319:M 01 Jul 17:44:32.082 * Removing the unix socket file.
+57319:M 01 Jul 17:44:32.082 # Redis is now ready to exit, bye bye...
+57361:M 01 Jul 17:44:34.276 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57361
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57361:M 01 Jul 17:44:34.280 # Server started, Redis version 3.0.7
+57361:M 01 Jul 17:44:34.280 * DB loaded from disk: 0.000 seconds
+57361:M 01 Jul 17:44:34.280 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57361:signal-handler (1467366349) Received SIGTERM scheduling shutdown...
+57361:M 01 Jul 17:45:49.528 # User requested shutdown...
+57361:M 01 Jul 17:45:49.528 * Saving the final RDB snapshot before exiting.
+57361:M 01 Jul 17:45:49.530 * DB saved on disk
+57361:M 01 Jul 17:45:49.531 * Removing the unix socket file.
+57361:M 01 Jul 17:45:49.531 # Redis is now ready to exit, bye bye...
+57402:M 01 Jul 17:45:51.737 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57402
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57402:M 01 Jul 17:45:51.772 # Server started, Redis version 3.0.7
+57402:M 01 Jul 17:45:51.781 * DB loaded from disk: 0.002 seconds
+57402:M 01 Jul 17:45:51.782 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57402:signal-handler (1467366433) Received SIGTERM scheduling shutdown...
+57402:M 01 Jul 17:47:13.319 # User requested shutdown...
+57402:M 01 Jul 17:47:13.319 * Saving the final RDB snapshot before exiting.
+57402:M 01 Jul 17:47:13.320 * DB saved on disk
+57402:M 01 Jul 17:47:13.321 * Removing the unix socket file.
+57402:M 01 Jul 17:47:13.321 # Redis is now ready to exit, bye bye...
+57459:M 01 Jul 17:47:14.762 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57459
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57459:M 01 Jul 17:47:14.767 # Server started, Redis version 3.0.7
+57459:M 01 Jul 17:47:14.767 * DB loaded from disk: 0.000 seconds
+57459:M 01 Jul 17:47:14.767 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57459:signal-handler (1467366484) Received SIGTERM scheduling shutdown...
+57459:M 01 Jul 17:48:04.438 # User requested shutdown...
+57459:M 01 Jul 17:48:04.438 * Saving the final RDB snapshot before exiting.
+57459:M 01 Jul 17:48:04.439 * DB saved on disk
+57459:M 01 Jul 17:48:04.439 * Removing the unix socket file.
+57459:M 01 Jul 17:48:04.439 # Redis is now ready to exit, bye bye...
+57501:M 01 Jul 17:48:06.398 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57501
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57501:M 01 Jul 17:48:06.400 # Server started, Redis version 3.0.7
+57501:M 01 Jul 17:48:06.400 * DB loaded from disk: 0.000 seconds
+57501:M 01 Jul 17:48:06.400 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57501:signal-handler (1467366587) Received SIGTERM scheduling shutdown...
+57501:M 01 Jul 17:49:47.285 # User requested shutdown...
+57501:M 01 Jul 17:49:47.285 * Saving the final RDB snapshot before exiting.
+57501:M 01 Jul 17:49:47.287 * DB saved on disk
+57501:M 01 Jul 17:49:47.288 * Removing the unix socket file.
+57501:M 01 Jul 17:49:47.288 # Redis is now ready to exit, bye bye...
+57543:M 01 Jul 17:49:48.572 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57543
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57543:M 01 Jul 17:49:48.576 # Server started, Redis version 3.0.7
+57543:M 01 Jul 17:49:48.576 * DB loaded from disk: 0.000 seconds
+57543:M 01 Jul 17:49:48.576 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57543:signal-handler (1467366831) Received SIGTERM scheduling shutdown...
+57543:M 01 Jul 17:53:51.394 # User requested shutdown...
+57543:M 01 Jul 17:53:51.394 * Saving the final RDB snapshot before exiting.
+57543:M 01 Jul 17:53:51.396 * DB saved on disk
+57543:M 01 Jul 17:53:51.396 * Removing the unix socket file.
+57543:M 01 Jul 17:53:51.399 # Redis is now ready to exit, bye bye...
+57624:M 01 Jul 17:53:52.779 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57624
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57624:M 01 Jul 17:53:52.787 # Server started, Redis version 3.0.7
+57624:M 01 Jul 17:53:52.788 * DB loaded from disk: 0.000 seconds
+57624:M 01 Jul 17:53:52.788 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57624:signal-handler (1467366980) Received SIGTERM scheduling shutdown...
+57624:M 01 Jul 17:56:21.018 # User requested shutdown...
+57624:M 01 Jul 17:56:21.018 * Saving the final RDB snapshot before exiting.
+57624:M 01 Jul 17:56:21.020 * DB saved on disk
+57624:M 01 Jul 17:56:21.020 * Removing the unix socket file.
+57624:M 01 Jul 17:56:21.020 # Redis is now ready to exit, bye bye...
+57703:M 01 Jul 17:56:22.468 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57703
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57703:M 01 Jul 17:56:22.470 # Server started, Redis version 3.0.7
+57703:M 01 Jul 17:56:22.470 * DB loaded from disk: 0.000 seconds
+57703:M 01 Jul 17:56:22.470 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57703:signal-handler (1467367109) Received SIGTERM scheduling shutdown...
+57703:M 01 Jul 17:58:29.852 # User requested shutdown...
+57703:M 01 Jul 17:58:29.853 * Saving the final RDB snapshot before exiting.
+57703:M 01 Jul 17:58:29.853 * DB saved on disk
+57703:M 01 Jul 17:58:29.854 * Removing the unix socket file.
+57703:M 01 Jul 17:58:29.854 # Redis is now ready to exit, bye bye...
+57824:M 01 Jul 17:58:31.592 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57824
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57824:M 01 Jul 17:58:31.597 # Server started, Redis version 3.0.7
+57824:M 01 Jul 17:58:31.599 * DB loaded from disk: 0.001 seconds
+57824:M 01 Jul 17:58:31.599 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57824:signal-handler (1467367192) Received SIGTERM scheduling shutdown...
+57824:M 01 Jul 17:59:52.950 # User requested shutdown...
+57824:M 01 Jul 17:59:52.950 * Saving the final RDB snapshot before exiting.
+57824:M 01 Jul 17:59:52.952 * DB saved on disk
+57824:M 01 Jul 17:59:52.952 * Removing the unix socket file.
+57824:M 01 Jul 17:59:52.952 # Redis is now ready to exit, bye bye...
+57864:M 01 Jul 17:59:55.583 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 57864
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+57864:M 01 Jul 17:59:55.598 # Server started, Redis version 3.0.7
+57864:M 01 Jul 17:59:55.598 * DB loaded from disk: 0.000 seconds
+57864:M 01 Jul 17:59:55.598 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+57864:M 01 Jul 18:04:56.029 * 10 changes in 300 seconds. Saving...
+57864:M 01 Jul 18:04:56.031 * Background saving started by pid 57945
+57945:C 01 Jul 18:04:56.039 * DB saved on disk
+57864:M 01 Jul 18:04:56.137 * Background saving terminated with success
+57864:M 01 Jul 18:14:21.765 * 10 changes in 300 seconds. Saving...
+57864:M 01 Jul 18:14:21.768 * Background saving started by pid 58081
+58081:C 01 Jul 18:14:21.772 * DB saved on disk
+57864:M 01 Jul 18:14:21.877 * Background saving terminated with success
+57864:M 04 Jul 15:54:22.781 * 1 changes in 900 seconds. Saving...
+57864:M 04 Jul 15:54:22.782 * Background saving started by pid 61934
+61934:C 04 Jul 15:54:22.786 * DB saved on disk
+57864:M 04 Jul 15:54:22.888 * Background saving terminated with success
+57864:M 04 Jul 15:59:23.028 * 10 changes in 300 seconds. Saving...
+57864:M 04 Jul 15:59:23.030 * Background saving started by pid 61970
+61970:C 04 Jul 15:59:23.037 * DB saved on disk
+57864:M 04 Jul 15:59:23.135 * Background saving terminated with success
+57864:M 04 Jul 16:08:34.682 * 10 changes in 300 seconds. Saving...
+57864:M 04 Jul 16:08:34.685 * Background saving started by pid 62091
+62091:C 04 Jul 16:08:34.691 * DB saved on disk
+57864:M 04 Jul 16:08:34.788 * Background saving terminated with success
+57864:M 04 Jul 16:18:34.718 * 10 changes in 300 seconds. Saving...
+57864:M 04 Jul 16:18:34.718 * Background saving started by pid 62177
+62177:C 04 Jul 16:18:34.726 * DB saved on disk
+57864:M 04 Jul 16:18:34.822 * Background saving terminated with success
+57864:M 04 Jul 16:26:26.671 * 10 changes in 300 seconds. Saving...
+57864:M 04 Jul 16:26:26.673 * Background saving started by pid 62276
+62276:C 04 Jul 16:26:26.685 * DB saved on disk
+57864:M 04 Jul 16:26:26.777 * Background saving terminated with success
+57864:M 04 Jul 16:31:27.095 * 10 changes in 300 seconds. Saving...
+57864:M 04 Jul 16:31:27.101 * Background saving started by pid 62373
+62373:C 04 Jul 16:31:27.125 * DB saved on disk
+57864:M 04 Jul 16:31:27.210 * Background saving terminated with success
+57864:M 04 Jul 16:41:25.034 * 10 changes in 300 seconds. Saving...
+57864:M 04 Jul 16:41:25.047 * Background saving started by pid 62553
+62553:C 04 Jul 16:41:25.080 * DB saved on disk
+57864:M 04 Jul 16:41:25.162 * Background saving terminated with success
+57864:M 04 Jul 16:50:25.037 * 10 changes in 300 seconds. Saving...
+57864:M 04 Jul 16:50:25.039 * Background saving started by pid 62693
+62693:C 04 Jul 16:50:25.049 * DB saved on disk
+57864:M 04 Jul 16:50:25.145 * Background saving terminated with success
+57864:signal-handler (1467622391) Received SIGTERM scheduling shutdown...
+57864:M 04 Jul 16:53:11.305 # User requested shutdown...
+57864:M 04 Jul 16:53:11.306 * Saving the final RDB snapshot before exiting.
+57864:M 04 Jul 16:53:11.308 * DB saved on disk
+57864:M 04 Jul 16:53:11.309 * Removing the unix socket file.
+57864:M 04 Jul 16:53:11.309 # Redis is now ready to exit, bye bye...
+62746:M 04 Jul 16:53:13.158 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 62746
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+62746:M 04 Jul 16:53:13.169 # Server started, Redis version 3.0.7
+62746:M 04 Jul 16:53:13.170 * DB loaded from disk: 0.001 seconds
+62746:M 04 Jul 16:53:13.170 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+62746:signal-handler (1467622559) Received SIGTERM scheduling shutdown...
+62746:M 04 Jul 16:55:59.129 # User requested shutdown...
+62746:M 04 Jul 16:55:59.129 * Saving the final RDB snapshot before exiting.
+62746:M 04 Jul 16:55:59.130 * DB saved on disk
+62746:M 04 Jul 16:55:59.131 * Removing the unix socket file.
+62746:M 04 Jul 16:55:59.131 # Redis is now ready to exit, bye bye...
+62799:M 04 Jul 16:55:59.502 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 62799
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+62799:M 04 Jul 16:55:59.505 # Server started, Redis version 3.0.7
+62799:M 04 Jul 16:55:59.505 * DB loaded from disk: 0.000 seconds
+62799:M 04 Jul 16:55:59.506 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+62799:signal-handler (1467622891) Received SIGTERM scheduling shutdown...
+62799:M 04 Jul 17:01:31.476 # User requested shutdown...
+62799:M 04 Jul 17:01:31.476 * Saving the final RDB snapshot before exiting.
+62799:M 04 Jul 17:01:31.477 * DB saved on disk
+62799:M 04 Jul 17:01:31.477 * Removing the unix socket file.
+62799:M 04 Jul 17:01:31.477 # Redis is now ready to exit, bye bye...
+62862:M 04 Jul 17:01:32.543 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 62862
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+62862:M 04 Jul 17:01:32.548 # Server started, Redis version 3.0.7
+62862:M 04 Jul 17:01:32.548 * DB loaded from disk: 0.000 seconds
+62862:M 04 Jul 17:01:32.548 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+62862:signal-handler (1467623321) Received SIGTERM scheduling shutdown...
+62862:M 04 Jul 17:08:41.880 # User requested shutdown...
+62862:M 04 Jul 17:08:41.880 * Saving the final RDB snapshot before exiting.
+62862:M 04 Jul 17:08:41.881 * DB saved on disk
+62862:M 04 Jul 17:08:41.882 * Removing the unix socket file.
+62862:M 04 Jul 17:08:41.882 # Redis is now ready to exit, bye bye...
+62988:M 04 Jul 17:08:42.363 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 62988
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+62988:M 04 Jul 17:08:42.367 # Server started, Redis version 3.0.7
+62988:M 04 Jul 17:08:42.367 * DB loaded from disk: 0.000 seconds
+62988:M 04 Jul 17:08:42.367 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+62988:M 04 Jul 17:24:51.228 * 1 changes in 900 seconds. Saving...
+62988:M 04 Jul 17:24:51.230 * Background saving started by pid 63054
+63054:C 04 Jul 17:24:51.236 * DB saved on disk
+62988:M 04 Jul 17:24:51.335 * Background saving terminated with success
+62988:M 04 Jul 17:39:52.098 * 1 changes in 900 seconds. Saving...
+62988:M 04 Jul 17:39:52.100 * Background saving started by pid 63133
+63133:C 04 Jul 17:39:52.107 * DB saved on disk
+62988:M 04 Jul 17:39:52.205 * Background saving terminated with success
+62988:M 04 Jul 17:58:14.642 * 1 changes in 900 seconds. Saving...
+62988:M 04 Jul 17:58:14.645 * Background saving started by pid 63211
+63211:C 04 Jul 17:58:14.651 * DB saved on disk
+62988:M 04 Jul 17:58:14.749 * Background saving terminated with success
+62988:M 04 Jul 18:13:15.036 * 1 changes in 900 seconds. Saving...
+62988:M 04 Jul 18:13:15.044 * Background saving started by pid 63476
+63476:C 04 Jul 18:13:15.053 * DB saved on disk
+62988:M 04 Jul 18:13:15.151 * Background saving terminated with success
+62988:M 06 Jul 16:50:11.052 * 1 changes in 900 seconds. Saving...
+62988:M 06 Jul 16:50:11.058 * Background saving started by pid 73317
+73317:C 06 Jul 16:50:11.066 * DB saved on disk
+62988:M 06 Jul 16:50:11.164 * Background saving terminated with success
+62988:signal-handler (1467796152) Received SIGTERM scheduling shutdown...
+62988:M 06 Jul 17:09:13.025 # User requested shutdown...
+62988:M 06 Jul 17:09:13.026 * Saving the final RDB snapshot before exiting.
+62988:M 06 Jul 17:09:13.028 * DB saved on disk
+62988:M 06 Jul 17:09:13.029 * Removing the unix socket file.
+62988:M 06 Jul 17:09:13.029 # Redis is now ready to exit, bye bye...
+73465:M 06 Jul 17:09:14.729 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 73465
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+73465:M 06 Jul 17:09:14.732 # Server started, Redis version 3.0.7
+73465:M 06 Jul 17:09:14.732 * DB loaded from disk: 0.001 seconds
+73465:M 06 Jul 17:09:14.732 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+73465:signal-handler (1467796368) Received SIGTERM scheduling shutdown...
+73465:M 06 Jul 17:12:48.549 # User requested shutdown...
+73465:M 06 Jul 17:12:48.550 * Saving the final RDB snapshot before exiting.
+73465:M 06 Jul 17:12:48.551 * DB saved on disk
+73465:M 06 Jul 17:12:48.552 * Removing the unix socket file.
+73465:M 06 Jul 17:12:48.552 # Redis is now ready to exit, bye bye...
+73597:M 06 Jul 17:12:49.063 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 73597
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+73597:M 06 Jul 17:12:49.067 # Server started, Redis version 3.0.7
+73597:M 06 Jul 17:12:49.067 * DB loaded from disk: 0.000 seconds
+73597:M 06 Jul 17:12:49.067 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+73597:signal-handler (1467796640) Received SIGTERM scheduling shutdown...
+73597:M 06 Jul 17:17:20.578 # User requested shutdown...
+73597:M 06 Jul 17:17:20.581 * Saving the final RDB snapshot before exiting.
+73597:M 06 Jul 17:17:20.595 * DB saved on disk
+73597:M 06 Jul 17:17:20.597 * Removing the unix socket file.
+73597:M 06 Jul 17:17:20.605 # Redis is now ready to exit, bye bye...
+73647:M 06 Jul 17:17:21.321 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 73647
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+73647:M 06 Jul 17:17:21.323 # Server started, Redis version 3.0.7
+73647:M 06 Jul 17:17:21.324 * DB loaded from disk: 0.000 seconds
+73647:M 06 Jul 17:17:21.324 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+73647:signal-handler (1467797286) Received SIGTERM scheduling shutdown...
+73647:M 06 Jul 17:28:06.572 # User requested shutdown...
+73647:M 06 Jul 17:28:06.572 * Saving the final RDB snapshot before exiting.
+73647:M 06 Jul 17:28:06.573 * DB saved on disk
+73647:M 06 Jul 17:28:06.574 * Removing the unix socket file.
+73647:M 06 Jul 17:28:06.574 # Redis is now ready to exit, bye bye...
+73845:M 06 Jul 17:28:08.845 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 73845
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+73845:M 06 Jul 17:28:08.850 # Server started, Redis version 3.0.7
+73845:M 06 Jul 17:28:08.851 * DB loaded from disk: 0.000 seconds
+73845:M 06 Jul 17:28:08.851 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+73845:signal-handler (1467797413) Received SIGTERM scheduling shutdown...
+73845:M 06 Jul 17:30:13.907 # User requested shutdown...
+73845:M 06 Jul 17:30:13.907 * Saving the final RDB snapshot before exiting.
+73845:M 06 Jul 17:30:13.908 * DB saved on disk
+73845:M 06 Jul 17:30:13.908 * Removing the unix socket file.
+73845:M 06 Jul 17:30:13.908 # Redis is now ready to exit, bye bye...
+73929:M 06 Jul 17:30:15.267 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 73929
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+73929:M 06 Jul 17:30:15.282 # Server started, Redis version 3.0.7
+73929:M 06 Jul 17:30:15.282 * DB loaded from disk: 0.000 seconds
+73929:M 06 Jul 17:30:15.282 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+73929:signal-handler (1467797533) Received SIGTERM scheduling shutdown...
+73929:M 06 Jul 17:32:13.923 # User requested shutdown...
+73929:M 06 Jul 17:32:13.923 * Saving the final RDB snapshot before exiting.
+73929:M 06 Jul 17:32:13.924 * DB saved on disk
+73929:M 06 Jul 17:32:13.924 * Removing the unix socket file.
+73929:M 06 Jul 17:32:13.924 # Redis is now ready to exit, bye bye...
+73973:M 06 Jul 17:32:14.319 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 73973
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+73973:M 06 Jul 17:32:14.321 # Server started, Redis version 3.0.7
+73973:M 06 Jul 17:32:14.322 * DB loaded from disk: 0.000 seconds
+73973:M 06 Jul 17:32:14.322 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+73973:signal-handler (1467797584) Received SIGTERM scheduling shutdown...
+73973:M 06 Jul 17:33:04.915 # User requested shutdown...
+73973:M 06 Jul 17:33:04.915 * Saving the final RDB snapshot before exiting.
+73973:M 06 Jul 17:33:04.917 * DB saved on disk
+73973:M 06 Jul 17:33:04.917 * Removing the unix socket file.
+73973:M 06 Jul 17:33:04.917 # Redis is now ready to exit, bye bye...
+74014:M 06 Jul 17:33:06.077 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74014
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74014:M 06 Jul 17:33:06.079 # Server started, Redis version 3.0.7
+74014:M 06 Jul 17:33:06.079 * DB loaded from disk: 0.000 seconds
+74014:M 06 Jul 17:33:06.080 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74014:signal-handler (1467797633) Received SIGTERM scheduling shutdown...
+74014:M 06 Jul 17:33:54.008 # User requested shutdown...
+74014:M 06 Jul 17:33:54.008 * Saving the final RDB snapshot before exiting.
+74014:M 06 Jul 17:33:54.009 * DB saved on disk
+74014:M 06 Jul 17:33:54.009 * Removing the unix socket file.
+74014:M 06 Jul 17:33:54.009 # Redis is now ready to exit, bye bye...
+74071:M 06 Jul 17:33:54.673 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74071
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74071:M 06 Jul 17:33:54.680 # Server started, Redis version 3.0.7
+74071:M 06 Jul 17:33:54.680 * DB loaded from disk: 0.000 seconds
+74071:M 06 Jul 17:33:54.680 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74071:signal-handler (1467797863) Received SIGTERM scheduling shutdown...
+74071:M 06 Jul 17:37:43.679 # User requested shutdown...
+74071:M 06 Jul 17:37:43.679 * Saving the final RDB snapshot before exiting.
+74071:M 06 Jul 17:37:43.680 * DB saved on disk
+74071:M 06 Jul 17:37:43.681 * Removing the unix socket file.
+74071:M 06 Jul 17:37:43.681 # Redis is now ready to exit, bye bye...
+74174:M 06 Jul 17:37:45.789 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74174
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74174:M 06 Jul 17:37:45.811 # Server started, Redis version 3.0.7
+74174:M 06 Jul 17:37:45.831 * DB loaded from disk: 0.009 seconds
+74174:M 06 Jul 17:37:45.833 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74174:signal-handler (1467797911) Received SIGTERM scheduling shutdown...
+74174:M 06 Jul 17:38:32.025 # User requested shutdown...
+74174:M 06 Jul 17:38:32.025 * Saving the final RDB snapshot before exiting.
+74174:M 06 Jul 17:38:32.026 * DB saved on disk
+74174:M 06 Jul 17:38:32.026 * Removing the unix socket file.
+74174:M 06 Jul 17:38:32.026 # Redis is now ready to exit, bye bye...
+74214:M 06 Jul 17:38:33.439 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74214
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74214:M 06 Jul 17:38:33.444 # Server started, Redis version 3.0.7
+74214:M 06 Jul 17:38:33.444 * DB loaded from disk: 0.000 seconds
+74214:M 06 Jul 17:38:33.444 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74214:signal-handler (1467797998) Received SIGTERM scheduling shutdown...
+74214:M 06 Jul 17:39:58.557 # User requested shutdown...
+74214:M 06 Jul 17:39:58.557 * Saving the final RDB snapshot before exiting.
+74214:M 06 Jul 17:39:58.558 * DB saved on disk
+74214:M 06 Jul 17:39:58.559 * Removing the unix socket file.
+74214:M 06 Jul 17:39:58.559 # Redis is now ready to exit, bye bye...
+74257:M 06 Jul 17:40:00.103 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74257
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74257:M 06 Jul 17:40:00.113 # Server started, Redis version 3.0.7
+74257:M 06 Jul 17:40:00.113 * DB loaded from disk: 0.001 seconds
+74257:M 06 Jul 17:40:00.114 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74257:signal-handler (1467798147) Received SIGTERM scheduling shutdown...
+74257:M 06 Jul 17:42:27.469 # User requested shutdown...
+74257:M 06 Jul 17:42:27.469 * Saving the final RDB snapshot before exiting.
+74257:M 06 Jul 17:42:27.472 * DB saved on disk
+74257:M 06 Jul 17:42:27.472 * Removing the unix socket file.
+74257:M 06 Jul 17:42:27.472 # Redis is now ready to exit, bye bye...
+74366:M 06 Jul 17:42:28.957 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74366
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74366:M 06 Jul 17:42:28.967 # Server started, Redis version 3.0.7
+74366:M 06 Jul 17:42:28.967 * DB loaded from disk: 0.000 seconds
+74366:M 06 Jul 17:42:28.967 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74366:signal-handler (1467798184) Received SIGTERM scheduling shutdown...
+74366:M 06 Jul 17:43:04.818 # User requested shutdown...
+74366:M 06 Jul 17:43:04.818 * Saving the final RDB snapshot before exiting.
+74366:M 06 Jul 17:43:04.821 * DB saved on disk
+74366:M 06 Jul 17:43:04.821 * Removing the unix socket file.
+74366:M 06 Jul 17:43:04.821 # Redis is now ready to exit, bye bye...
+74408:M 06 Jul 17:43:06.095 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74408
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74408:M 06 Jul 17:43:06.100 # Server started, Redis version 3.0.7
+74408:M 06 Jul 17:43:06.100 * DB loaded from disk: 0.000 seconds
+74408:M 06 Jul 17:43:06.100 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74408:signal-handler (1467798226) Received SIGTERM scheduling shutdown...
+74408:M 06 Jul 17:43:46.289 # User requested shutdown...
+74408:M 06 Jul 17:43:46.290 * Saving the final RDB snapshot before exiting.
+74408:M 06 Jul 17:43:46.291 * DB saved on disk
+74408:M 06 Jul 17:43:46.292 * Removing the unix socket file.
+74408:M 06 Jul 17:43:46.292 # Redis is now ready to exit, bye bye...
+74477:M 06 Jul 17:44:19.259 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74477
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74477:M 06 Jul 17:44:19.266 # Server started, Redis version 3.0.7
+74477:M 06 Jul 17:44:19.267 * DB loaded from disk: 0.001 seconds
+74477:M 06 Jul 17:44:19.267 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74477:signal-handler (1467798296) Received SIGTERM scheduling shutdown...
+74477:M 06 Jul 17:44:56.892 # User requested shutdown...
+74477:M 06 Jul 17:44:56.893 * Saving the final RDB snapshot before exiting.
+74477:M 06 Jul 17:44:56.896 * DB saved on disk
+74477:M 06 Jul 17:44:56.896 * Removing the unix socket file.
+74477:M 06 Jul 17:44:56.896 # Redis is now ready to exit, bye bye...
+74517:M 06 Jul 17:44:58.219 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74517
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74517:M 06 Jul 17:44:58.223 # Server started, Redis version 3.0.7
+74517:M 06 Jul 17:44:58.223 * DB loaded from disk: 0.000 seconds
+74517:M 06 Jul 17:44:58.223 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74517:signal-handler (1467798367) Received SIGTERM scheduling shutdown...
+74517:M 06 Jul 17:46:07.250 # User requested shutdown...
+74517:M 06 Jul 17:46:07.250 * Saving the final RDB snapshot before exiting.
+74517:M 06 Jul 17:46:07.250 * DB saved on disk
+74517:M 06 Jul 17:46:07.251 * Removing the unix socket file.
+74517:M 06 Jul 17:46:07.251 # Redis is now ready to exit, bye bye...
+74558:M 06 Jul 17:46:08.509 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74558
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74558:M 06 Jul 17:46:08.514 # Server started, Redis version 3.0.7
+74558:M 06 Jul 17:46:08.514 * DB loaded from disk: 0.000 seconds
+74558:M 06 Jul 17:46:08.514 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74558:M 06 Jul 18:01:09.073 * 1 changes in 900 seconds. Saving...
+74558:M 06 Jul 18:01:09.076 * Background saving started by pid 74694
+74694:C 06 Jul 18:01:09.082 * DB saved on disk
+74558:M 06 Jul 18:01:09.178 * Background saving terminated with success
+74558:signal-handler (1467799827) Received SIGTERM scheduling shutdown...
+74558:M 06 Jul 18:10:27.646 # User requested shutdown...
+74558:M 06 Jul 18:10:27.646 * Saving the final RDB snapshot before exiting.
+74558:M 06 Jul 18:10:27.649 * DB saved on disk
+74558:M 06 Jul 18:10:27.649 * Removing the unix socket file.
+74558:M 06 Jul 18:10:27.649 # Redis is now ready to exit, bye bye...
+74848:M 06 Jul 18:10:28.949 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (aa98c668/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 74848
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74848:M 06 Jul 18:10:28.964 # Server started, Redis version 3.0.7
+74848:M 06 Jul 18:10:28.965 * DB loaded from disk: 0.000 seconds
+74848:M 06 Jul 18:10:28.965 * The server is now ready to accept connections at /Users/eugeneye/Documents/gbc-core/gbc-core/tmp/redis.sock
+74848:M 06 Jul 19:28:59.204 * 1 changes in 900 seconds. Saving...
+74848:M 06 Jul 19:28:59.315 * Background saving started by pid 74907
+74907:C 06 Jul 19:28:59.331 * DB saved on disk
+74848:M 06 Jul 19:28:59.419 * Background saving terminated with success
+74848:signal-handler (1468154281) Received SIGTERM scheduling shutdown...
+74848:M 10 Jul 20:38:01.703 # User requested shutdown...
+74848:M 10 Jul 20:38:01.703 * Saving the final RDB snapshot before exiting.
+74848:M 10 Jul 20:38:01.707 * DB saved on disk
+74848:M 10 Jul 20:38:01.707 * Removing the unix socket file.
+74848:M 10 Jul 20:38:01.707 # Redis is now ready to exit, bye bye...
