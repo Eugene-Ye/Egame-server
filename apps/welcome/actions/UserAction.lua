@@ -73,6 +73,8 @@ function UserAction:registerAction( args )
     addUser.username = args.username
     addUser.pass = args.pass
     addUser.email = args.email
+    addUser.gold = 5000
+    addUser.photoIdx = args.photoIdx
     if not users then 
         users = {}
         users[1] = addUser
