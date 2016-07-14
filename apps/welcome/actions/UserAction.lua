@@ -86,6 +86,12 @@ function UserAction:registerAction( args )
     return {success = "true"}
 end
 
+function UserAction:rsetusersAction( args )
+    local redis = self:getInstance():getRedis()
+    redis:set("users", nil)
+    return true
+end
+
 function UserAction:getusersAction( args )
     local redis = self:getInstance():getRedis()
     local strUsers = redis:get("users")
