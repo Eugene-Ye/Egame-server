@@ -74,7 +74,7 @@ function UserAction:registerAction( args )
     addUser.pass = args.pass
     addUser.email = args.email
     addUser.gold = 5000
-    addUser.photoIdx = args.photoIdx
+    addUser.photoIdx = #users
     if not users then 
         users = {}
         users[1] = addUser
@@ -84,6 +84,16 @@ function UserAction:registerAction( args )
     strUsers = json.encode(users)
     redis:set("users", strUsers)
     return {success = "true"}
+end
+
+function UserAction:getusersAction( args )
+    local redis = self:getInstance():getRedis()
+    local strUsers = redis:get("users")
+    local users = {}
+    if strUsers and strUsers ~="" then
+        users = json.decode(strUsers)
+    end
+    return users
 end
 
 function UserAction:signinAction(args)
